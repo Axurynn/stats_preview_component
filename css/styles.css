@@ -24,8 +24,9 @@ body {
   font-weight: 400;
   border-radius: 0.5rem;
 }
+
 .img {
-  background: var(--soft-violet);
+  background: hsl(287, 100%, 25%);
   margin: 0;
   border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -78,7 +79,7 @@ h3 {
   color: var(--stat-headings);
   text-transform: uppercase;
   margin-bottom: 2rem;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .attribution {
@@ -123,11 +124,16 @@ h3 {
     font-size: 35px;
   }
 
+  h3 {
+    padding-right: 3rem;
+  }
+
   .stats {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 0;
     margin: 0 3.5rem;
+    padding-bottom: 0;
+    padding-right: 3rem;
   }
 }
